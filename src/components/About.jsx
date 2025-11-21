@@ -84,8 +84,7 @@ const About = () => {
                 <span className="text-primary-400 font-semibold">MB-Tech</span>.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                En reconversion professionnelle depuis la sûreté ferroviaire, je
-                me spécialise dans le{" "}
+                En reconversion professionnelle, je me spécialise dans le{" "}
                 <span className="text-primary-400">
                   développement d'applications web modernes
                 </span>{" "}
@@ -96,8 +95,8 @@ const About = () => {
                 <span className="text-primary-400">
                   solutions web performantes
                 </span>{" "}
-                qui propulsent votre business digital tout en construisant une
-                carrière nomade dans la tech.
+                qui propulsent votre business digital tout en me construisant
+                une carrière dans la tech.
               </p>
             </div>
 
