@@ -4,7 +4,7 @@ const SEO = ({
   title,
   description,
   keywords,
-  ogImage = "/og-image.png",
+  ogImage = "/og-image.jpg",
   canonical,
 }) => {
   useEffect(() => {
