@@ -18,7 +18,7 @@ function App() {
         description="MB-Tech - Développeur React freelance spécialisé en création d'applications web modernes. Services : développement React, intégration Figma, refonte de sites web. Basé en France, disponible à distance."
         keywords="développeur react, freelance react, création site web, développeur web france, intégration figma, react js, développeur javascript, portfolio développeur, mb-tech, bechir majri"
         canonical="https://portfolio-mbtech.vercel.app/"
-        ogImage="https://portfolio-mbtech.vercel.app/og-image.png"
+        ogImage="https://portfolio-mbtech.vercel.app/og-image.jpg"
       />
 
       {/* Schema.org Structured Data */}
