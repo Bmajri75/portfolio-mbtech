@@ -53,7 +53,7 @@ const Footer = () => {
             {/* Réseaux sociaux */}
             <div className="flex gap-3">
               <a
-                href="https://github.com/bechirmajri"
+                href="https://github.com/bmajri75"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-dark-800 hover:bg-primary-500 text-gray-400 hover:text-white rounded-lg flex items-center justify-center transition-all transform hover:scale-110"

@@ -73,7 +73,7 @@ const Projects = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="https://github.com/bechirmajri"
+            href="https://github.com/bmajri75"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-transparent border-2 border-primary-500 text-primary-400 hover:bg-primary-500 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105"

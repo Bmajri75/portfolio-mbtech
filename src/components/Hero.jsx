@@ -87,7 +87,7 @@ const Hero = () => {
             {/* Liens sociaux */}
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="https://github.com/bechirmajri"
+                href="https://github.com/bmajri75"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center bg-dark-800 hover:bg-primary-500 text-gray-400 hover:text-white rounded-lg transition-all transform hover:scale-110"

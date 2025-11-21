@@ -185,7 +185,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bold text-white mb-6">Suivez-moi</h3>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/bechirmajri"
+                  href="https://github.com/bmajri75"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-dark-900 hover:bg-primary-500 text-gray-400 hover:text-white rounded-lg flex items-center justify-center transition-all transform hover:scale-110"
