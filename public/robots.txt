@@ -1,0 +1,17 @@
+# Robots.txt pour MB-Tech Portfolio
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://portfolio-mbtech.vercel.app/sitemap.xml
+
+# Crawl-delay (optionnel, évite de surcharger le serveur)
+Crawl-delay: 1
+
+# Bloque les bots de scraping indésirables (optionnel)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
