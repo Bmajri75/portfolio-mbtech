@@ -39,8 +39,14 @@ const SEO = ({
     setMetaProperty("og:title", title);
     setMetaProperty("og:description", description);
     setMetaProperty("og:image", ogImage);
+    setMetaProperty("og:image:secure_url", ogImage);
+    setMetaProperty("og:image:width", "1200");
+    setMetaProperty("og:image:height", "630");
+    setMetaProperty("og:image:alt", title);
     setMetaProperty("og:url", window.location.href);
     setMetaProperty("og:type", "website");
+    setMetaProperty("og:site_name", "MB-Tech");
+    setMetaProperty("og:locale", "fr_FR");
 
     // Twitter
     setMetaProperty("twitter:card", "summary_large_image");
