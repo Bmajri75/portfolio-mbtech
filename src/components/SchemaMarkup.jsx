@@ -8,7 +8,7 @@ const SchemaMarkup = () => {
       name: "Bechir Majri",
       alternateName: "MB-Tech",
       url: "https://portfolio-mbtech.vercel.app",
-      image: "https://portfolio-mbtech.vercel.app/logo.png",
+      image: "https://portfolio-mbtech.vercel.app/logo.jpg",
       jobTitle: "Développeur React Freelance",
       worksFor: {
         "@type": "Organization",

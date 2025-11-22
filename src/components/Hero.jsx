@@ -20,7 +20,7 @@ const Hero = () => {
       setCurrentTitle((prev) => (prev + 1) % titles.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   return (
     <section
