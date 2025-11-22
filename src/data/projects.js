@@ -1,15 +1,14 @@
 export const projectsData = [
   {
-    id: 1,
-    title: "E-Commerce Modern Shop",
+    id: 1, // Change selon le nombre de projets que tu as
+    title: "MB-Coaching",
     description:
-      "Application e-commerce complète avec panier, paiement Stripe et dashboard admin. Interface moderne et responsive.",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    category: "Full-Stack",
-    github: "https://github.com/bechirmajri/ecommerce-app",
-    demo: "https://demo-ecommerce.vercel.app",
+      "Plateforme de coaching sportif en ligne avec système de réservation, paiement Stripe et gestion des clients. Coaching privé en MMA, Muay Thai et Grappling.",
+    image: "/images/mb-coaching.png",
+    technologies: ["React", "Vite", "Tailwind", "Stripe", "Firebase"],
+    category: "React",
+    github: "https://github.com/Bmajri75/mb-coaching-", // Ou ton lien GitHub si repo public
+    demo: "https://mb-coaching.vercel.app", // ← TON URL VERCEL ICI
   },
   {
     id: 2,
