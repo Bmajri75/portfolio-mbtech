@@ -13,8 +13,9 @@ export const projectsData = [
   {
     id: 2,
     title: 'SmartFileOrganizer',
+    soustitre: 'Organisation intelligente de fichiers avec IA',
     description:
-      "Dashboard d'analyse de données avec graphiques interactifs, filtres avancés et export PDF.",
+      "SaaS qui automatise l'organisation de fichiers grâce à l'intelligence artificielle. Analyse le contenu, détecte les catégories et crée automatiquement une structure de dossiers logique et optimale.",
     image: '../../public/images/SmartFileOrganizer.png',
     technologies: ['Python', 'HTML'],
     category: 'Python',
