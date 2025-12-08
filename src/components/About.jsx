@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { FaCode, FaRocket, FaUsers, FaCheckCircle } from "react-icons/fa";
+import { useEffect, useRef, useState } from 'react';
+import { FaCheckCircle, FaCode, FaRocket, FaUsers } from 'react-icons/fa';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,20 +29,21 @@ const About = () => {
 
   // Compétences techniques
   const skills = [
-    { name: "React.js", level: 70, color: "bg-blue-500" },
-    { name: "JavaScript / ES6+", level: 85, color: "bg-yellow-500" },
-    { name: "Tailwind CSS", level: 70, color: "bg-cyan-500" },
-    { name: "Node.js / Express", level: 60, color: "bg-green-500" },
-    { name: "Git / GitHub", level: 85, color: "bg-orange-500" },
-    { name: "HTML5 / CSS3", level: 95, color: "bg-red-500" },
+    { name: 'React.js', level: 70, color: 'bg-blue-500' },
+    { name: 'JavaScript / ES6+', level: 85, color: 'bg-yellow-500' },
+    { name: 'Tailwind CSS', level: 70, color: 'bg-cyan-500' },
+    { name: 'Node.js / Express', level: 60, color: 'bg-green-500' },
+    { name: 'Git / GitHub', level: 85, color: 'bg-orange-500' },
+    { name: 'HTML5 / CSS3', level: 95, color: 'bg-red-500' },
+    { name: 'Python', level: 60, color: 'bg-blue-300' },
   ];
 
   // Stats
   const stats = [
-    { icon: FaCode, number: "10+", label: "Projets réalisés" },
-    { icon: FaUsers, number: "8+", label: "Clients satisfaits" },
-    { icon: FaRocket, number: "1+", label: "Années d'expérience" },
-    { icon: FaCheckCircle, number: "100%", label: "Engagement qualité" },
+    { icon: FaCode, number: '10+', label: 'Projets réalisés' },
+    { icon: FaUsers, number: '8+', label: 'Clients satisfaits' },
+    { icon: FaRocket, number: '1+', label: "Années d'expérience" },
+    { icon: FaCheckCircle, number: '100%', label: 'Engagement qualité' },
   ];
 
   return (
@@ -76,25 +77,25 @@ const About = () => {
                 Qui suis-je ?
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                Je suis{" "}
+                Je suis{' '}
                 <span className="text-primary-400 font-semibold">
                   Bechir Majri
                 </span>
-                , développeur web passionné et fondateur de{" "}
+                , développeur web passionné et fondateur de{' '}
                 <span className="text-primary-400 font-semibold">MB-Tech</span>.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">
-                En reconversion professionnelle, je me spécialise dans le{" "}
+                En reconversion professionnelle, je me spécialise dans le{' '}
                 <span className="text-primary-400">
                   développement d'applications web modernes
-                </span>{" "}
+                </span>{' '}
                 avec React, JavaScript et les technologies full-stack.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Mon objectif : créer des{" "}
+                Mon objectif : créer des{' '}
                 <span className="text-primary-400">
                   solutions web performantes
-                </span>{" "}
+                </span>{' '}
                 qui propulsent votre business digital tout en me construisant
                 une carrière dans la tech.
               </p>
@@ -158,7 +159,7 @@ const About = () => {
                       <div
                         className={`h-full ${skill.color} rounded-full transition-all duration-1000 ease-out`}
                         style={{
-                          width: isVisible ? `${skill.level}%` : "0%",
+                          width: isVisible ? `${skill.level}%` : '0%',
                           transitionDelay: `${index * 100}ms`,
                         }}
                       ></div>

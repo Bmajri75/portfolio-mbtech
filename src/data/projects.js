@@ -72,4 +72,10 @@ export const projectsData = [
   },
 ];
 
-export const categories = ['Tous', 'React', 'Full-Stack', 'Landing Page'];
+export const categories = [
+  'Tous',
+  'React',
+  'Python',
+  'Full-Stack',
+  'Landing Page',
+];
