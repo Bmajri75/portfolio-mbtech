@@ -27,10 +27,19 @@ export const projectsData = [
     title: 'Athletic Fight Sport',
     description:
       'Athletic Fight Sport est un blog dédié aux sports de combat, avec des actualités récupérées via un flux RSS et présentées dans une interface moderne.',
-    image: '/images/#',
+    image: '/public/#',
     technologies: ['NextJS', 'TypeScript', 'Tylewind'],
     category: 'React',
     github: 'https://github.com/Bmajri75/athletic-fight-sport',
+  },
+  {
+    id: 4,
+    title: 'Kongo Parfum',
+    description: 'Site web luxueux KONGO by AMENYS - Angular + Node.js',
+    image: '/public/images/kongo.png',
+    technologies: ['Angular', 'NodeJs', 'SCSS'],
+    category: 'Full-Stack',
+    github: 'https://github.com/Bmajri75/kongo-parfum',
   },
 ];
 
