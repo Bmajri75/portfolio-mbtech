@@ -30,10 +30,12 @@ Portfolio professionnel moderne showcasant les projets et compétences technique
 ## 🚀 Installation & Démarrage
 
 ### Prérequis
+
 - Node.js v18+
 - npm / pnpm
 
 ### Lancer en développement
+
 ```bash
 npm install
 npm run dev
@@ -41,12 +43,14 @@ npm run dev
 ```
 
 ### Build production
+
 ```bash
 npm run build
 # Output dans le dossier dist/
 ```
 
 ### Preview
+
 ```bash
 npm run preview
 ```
